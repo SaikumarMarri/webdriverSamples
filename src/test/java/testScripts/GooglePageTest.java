@@ -16,8 +16,7 @@ public class GooglePageTest {
 		srcBox.sendKeys("Java Tutorial");
 		srcBox.sendKeys(Keys.ENTER);
 		
-		
-		
+		System.out.println("URL...."+ driver.getTitle());
 	}
 
 }
